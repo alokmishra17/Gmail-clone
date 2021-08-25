@@ -6,16 +6,18 @@
 /* Header */
 
 .header-logo{
-    width:3rem;
+    width:6.5rem;
     height:auto;
     object-fit: contain;
-    margin-left: 5px;
+    margin-left: 8px;
+    cursor: pointer;
 }
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid whitesmoke;
+    margin-top:5px;
 }
 
 .header_left{
@@ -23,11 +25,13 @@
     align-items: center;
 }
 .header_left span{
-    padding:10px;
+    padding:15px;
     cursor: pointer;
 }
 
 .header_middle{
+    padding-right: 15px;
+    padding-left:15px ;
     display:flex;
     flex:0.8;
     align-items: center;
@@ -62,15 +66,17 @@
     padding-right: 20px;
 }
 .sidebar_compose{
+    width:150px;
     margin-top: 15px;
     margin-left: 10px;
     margin-bottom:15px;
     text-transform: capitalize;
     color:gray;
-    padding:15px;
-    border-radius: 30px;
+    padding:12px;
+    border-radius: 25px;
     background-color: white;
-    font-size:15px;
+    font-size:14px;
+    color: rgb(27, 23, 23);
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -78,8 +84,13 @@
     border:none;
     box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
 }
+.sidebar_compose:hover{
+    background-color: whitesmoke;
+    border-width:2px;
+    font-weight:550;
+}
 .sidebar_compose span{
-    margin-right: 5px;
+    margin-right: 10px;
 }
 .sidebarOption{
     display:flex;
